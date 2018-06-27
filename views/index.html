@@ -1,0 +1,76 @@
+<head>
+    <link rel="stylesheet" href="app.css" type="text/css" />
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous">
+    </script>
+</head>
+<body>
+  <header>
+    <h1>Zen<span>API</span></h1>
+    <h2>A REST API for getting zen quotes</h2>
+  </header>
+  
+  <section class="form">
+   <section id="sec">
+  <!--for demo wrap-->
+
+  <div class="tbl-header">
+    <table cellpadding="0" cellspacing="0" border="0">
+      <thead>
+        <tr>
+       <th>Verb</th>
+      <th>Route</th>
+      <th>Description</th>
+        </tr>
+      </thead>
+    </table>
+  </div>
+  <div class="tbl-content">
+    <table cellpadding="0" cellspacing="0" border="0">
+       <tbody>
+    <tr>
+      <td>GET</td>
+      <td>/api/zen</td>
+      <td>See all the zen quotes</td>
+    </tr>
+    <tr>
+      <td>POST</td>
+      <td>/api/zen</td>
+      <td>Post a new quote</td>
+    </tr>
+    <tr>
+      <td>GET</td>
+      <td>/api/zen/random</td>
+      <td>Get a random quote</td>
+    </tr>
+    <tr>
+      <td>GET</td>
+      <td>/api/zen/:zenId</td>
+      <td>Get one zen quote</td>
+    </tr>
+    <tr>
+      <td>PUT</td>
+      <td>/api/zen/:zenId</td>
+      <td>Update one zen quote</td>
+    </tr>
+    <tr>
+      <td>DELETE</td>
+      <td>/api/zen/:zenId</td>
+      <td>Delete one zen quote</td>
+    </tr>
+         </tbody>
+  </table>
+  </div>
+</section>
+  </section>
+  <!--<section class="form">-->
+  <!--  <input type="text" id="todoInput" placeholder="Insert your task here...">-->
+  <!--</section>-->
+
+  <!--<ul class="list">-->
+  <!--</ul>-->
+
+<script type="text/javascript" src="app.js"></script>
+</body>

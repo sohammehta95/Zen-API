@@ -1,7 +1,7 @@
 # Zen-API
 
-A REST API created with endpoints to fetch and post Zen quotes.
-Link: https://zen-rest-api.herokuapp.com
+A REST API created with endpoints to fetch and post Zen quotes.  
+Link: https://zen-rest-api.herokuapp.com    
 
 ![Zen](zen.png)
 
